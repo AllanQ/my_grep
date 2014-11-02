@@ -1,0 +1,16 @@
+grep print lines included a serching word
+
+Usage: ./my_grep.rb [OPTIONS] PATTERN FILES
+
+OPTIONS:
+'-A3' -print lines around the printing line
+'-e'  -use regular expression
+'-R'  -search recursively in directories
+'-z'  -parsing gzipped files
+'-h'  -print help
+
+PATTERN:
+any word or regular expression in case option '-e'
+
+FILES
+may include directories in case option '-R'
