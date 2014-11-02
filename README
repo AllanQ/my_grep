@@ -1,7 +1,6 @@
 grep print lines included a serching word
 
-Usage
-enter to the directory 'grep' and pype:
+Usage:
  ./my_grep.rb [OPTIONS] PATTERN FILES
 
 OPTIONS:
