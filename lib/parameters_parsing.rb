@@ -35,7 +35,7 @@ class ParametersParsing
     option_r  = @arguments.include?('-R')  ? true : false
     option_z  = @arguments.include?('-z')  ? true : false
     pattern_string = (@arguments - ['-A3', '-e', '-R', '-z']).first
-    files_args = (@arguments - ['-A3', '-e', '-R', '-z']) - [pattern_string]
+    files_args     = (@arguments - ['-A3', '-e', '-R', '-z']) - [pattern_string]
     @all_args = [option_A3, option_e, option_r, option_z, pattern_string, files_args]
   end
 end
