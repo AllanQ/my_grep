@@ -22,7 +22,7 @@ class ParametersParsing
 
   def check_and_parsing
     if @arguments.length < 2
-      p 'Usage: ./run_my_grep.rb [OPTIONS] PATTERN FILES'
+      p 'Usage: ./my_grep.rb [OPTIONS] PATTERN FILES'
       exit
     else
       parsing
